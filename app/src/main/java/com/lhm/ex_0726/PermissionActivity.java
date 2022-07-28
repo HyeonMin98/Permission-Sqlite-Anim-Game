@@ -55,7 +55,7 @@ public class PermissionActivity extends AppCompatActivity {
 
         @Override
         public void onPermissionDenied(List<String> deniedPermissions) {
-            //한가지라도 허용이 되지 않은 권한이 있다면 호출
+            //한가지라도 허용이 되지 않은 권한이 있다면 호출.
 
             //모든 권한이 수락되지 않았다면 강제로 종료
             Toast.makeText(PermissionActivity.this, "모든권한을 수락해야 합니다.", Toast.LENGTH_SHORT).show();

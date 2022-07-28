@@ -19,7 +19,7 @@
 <!--<translate android : 처음 x 좌표의 위치-->
 <!--android:toXDelta : 끝 x 좌표의 위치-->
 <!-- android:fromYDelta : 처음 y 좌표의 위치-->
-<!--android:toYDelta : 끝 y 좌표의 위치-->
+<!--android:toYDelta : 끝 y 좌표의 위치.-->
 
 
 </set>

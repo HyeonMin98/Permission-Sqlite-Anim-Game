@@ -21,7 +21,7 @@ public class GameActivity extends AppCompatActivity {
 
     int count = 0; //그림을 움직이기 위한 변수
     int rot = 0; //그림을 움직이기 위한 변수
-    int comRand = 0; //컴퓨터 난수발생
+    int comRand = 0; //컴퓨터 난수발생.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,7 +4,7 @@
 
 <!--    fromAlpha : 애니메이션 시작 알파값 0.0이면 완전 투명
         toAlpha : 끝 알파값이 1.0이면 완전 불투명
-        duration : 애니메이션 진행 시간 ms -->
+        duration : 애니메이션 진행 시간 ms. -->
 
     <alpha android:fromAlpha="0.0"
         android:toAlpha="1.0"

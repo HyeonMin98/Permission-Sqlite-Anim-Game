@@ -105,7 +105,7 @@ public class SqliteActivity extends AppCompatActivity {
                         et_age.setText("");
                         et_phone.setText("");
                     }
-                    //데이터 추가 후 전체를 로드
+                    //데이터 추가 후 전체를 로드.
                     searchQuery("select * from friend");
                     break;
 

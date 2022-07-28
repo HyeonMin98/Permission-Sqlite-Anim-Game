@@ -32,14 +32,13 @@ public class AnimActivity extends AppCompatActivity {
                     visible_layout.startAnimation(menu_invisible_ani);
                     visible_layout.setVisibility(View.INVISIBLE);
                 }else{
-                    //메뉴가 숨겨져 있을때는 보여준다.
+                    //메뉴가 숨겨져 있을때는 보여준다..
                     menu_visible_ani = AnimationUtils.loadAnimation(AnimActivity.this,R.anim.menu_visible);
                     visible_layout.startAnimation(menu_visible_ani);
                     visible_layout.setVisibility(View.VISIBLE);
                 }
                 rotate_ani = AnimationUtils.loadAnimation(AnimActivity.this,R.anim.menu_rotate);
                 btn_menu.startAnimation(rotate_ani);
-
             }
         });
 
