@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+<!--    <rotate android:fromDegrees="0" 시작 회전각-->
+<!--        android:pivotX="50%" 중심좌표 x-->
+<!--        android:pivotY="50%" 중심좌표 y-->
+<!--        android:toDegrees="180" 끝 회전 각-->
+
+    <rotate android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="180"
+        android:duration="500"/>
+</set>

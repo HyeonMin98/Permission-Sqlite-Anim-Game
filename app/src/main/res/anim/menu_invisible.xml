@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    set : 여러개의 속성(투명도, 좌표, 회전)을 하나로 묶어서 관리할수 있도록 하는 영역.-->
+
+<!--    fromAlpha : 애니메이션 시작 알파값 0.0이면 완전 투명
+        toAlpha : 끝 알파값이 1.0이면 완전 불투명
+        duration : 애니메이션 진행 시간 ms -->
+
+    <alpha android:fromAlpha="1.0"
+        android:toAlpha="0.0"
+        android:duration="500"/>
+
+    <translate android:fromXDelta="0%p"
+        android:toXDelta="-100%p"
+        android:fromYDelta="0%p"
+        android:toYDelta="0%p"
+        android:duration="500"/>
+
+<!--<translate android : 처음 x 좌표의 위치-->
+<!--android:toXDelta : 끝 x 좌표의 위치-->
+<!-- android:fromYDelta : 처음 y 좌표의 위치-->
+<!--android:toYDelta : 끝 y 좌표의 위치-->
+
+
+</set>
